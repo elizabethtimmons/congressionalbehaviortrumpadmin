@@ -2,7 +2,7 @@
 ## Increased party line voting under the Trump Administration
 ### By Liz Timmons
 
-I used a dataset from [fivethirtyeight](https://fivethirtyeight.com/)'s github repository, that includes data on how often each member of Congress votes in line with or against President Trump. The data was already cleaned and in usable form for the most part, but I had to standardize some string's values. For instance under the "party" column, some values were D and R while others were Democrat and Republican. To do this, I first imported the CSV to [OpenRefine](https://openrefine.org/). I clicked `facet`> `text facet`> `cluster` in order to standardize the strings values across the CSV. I then exported the CSV to [Google Sheets](https://www.google.com/sheets/about/), where I formatted the agree_pct and predicted_agree columns' values to percents by going `format`> `number`> `percent`. 
+I used a dataset from [fivethirtyeight](https://fivethirtyeight.com/)'s github repository, that includes data on how often each member of Congress votes in line with or against President Trump. I chose it because I wanted some insights of what Congress is like under the Trump Administration. The data was already cleaned and in usable form for the most part, but I had to standardize some string's values. For instance under the "party" column, some values were D and R while others were Democrat and Republican. To do this, I first imported the CSV to [OpenRefine](https://openrefine.org/). I clicked `facet`> `text facet`> `cluster` in order to standardize the text strings' values across the CSV. I then exported the CSV to [Google Sheets](https://www.google.com/sheets/about/), where I formatted the agree_pct and predicted_agree columns' values to percents by going `format`> `number`> `percent`. 
 
 Once my data was in workable form in Google Sheets, I created put a filter view on my spreadsheet. There, I was able to sort the data from my columns from `A to Z` and `Z to A`. I sorted the agree_pct column, predicted_agree column and net_trump_vote column. I also filtered my congress column to show either only data from the 115 Congress or 116 Congress, my chamber column to show only data for Senate or House members and my party column to show results for only one party. In doing so, I found some interesting data:
 
@@ -41,10 +41,24 @@ Once my data was in workable form in Google Sheets, I created put a filter view 
 
    *I found the gap between Sen. Collins, the Republican Senator with the lowest agree percent, and Sen. Manchin, the Democratic Senator with the highest agree percent, astonunding. Their is 13% margin in party line voting.*
 
-I mostly focused on sorting with the Senate because of the fillibuster. The house does not have a fillibuster, while the Senate does which makes the dd important/ bipartisanship// recent changes. 
+I mostly focused on sorting with the Senate because of the **fillibuster**. The fillibuster makes party government operate differently in the Senate than the House. Fillibusters have become costless for the minority party, which is the Democratic Party under the Trump Administration. All they have to do is threaten to fillibuster and prevent the 60 votes for **cloture**, which is a 2/3 vote. Through this they can block most things in the Senate. Routine fillibuster and cloture has given rise to a lot of gridlock. Within the spatial model with a fillibuster, the most important position is either the 60th most liberal or 60th most conservative Senator, as they can invoke cloture. 
 
+Thus according to sorting Senator's agree_pct with Trump from `Z to A`, the 60th most liberal Senator for a fillibuster would be **Democratic Senator Murphy** of Connecticut. And according to sorting conversely Senator's agree_pct from `A to Z`, the 60th most Conservative senator would be **Republican Senator Cotton** of Arkansas.
+-Sen. Murphy agree percent with Trump -- `21.05%`
+-Sen. Cotton agree percent with Trump -- `84.62%`
+
+This discrepancy was very interesting to me, as it depicts the intense partisanship we have in Congress through party voting behavior. It depicts how this intense partisanship has occurred under the Trump Administration and is demarked by the percentage members vote with or against Trump. It helped answer the question of if we can have intense partisanship and the filibuster.
+
+**After I filtered and sorted my data in various different ways, I created various pivot tables with my data**. I did this by selecting `data`>`pivot table`.
+
+graph analysis:
+A tendency to vote with Trump or against can be predicted by party lines. There is a positive correlation between being a Republican member of Congress and voting with Trump. On the other hand there is a postive correlation between being a Democratic member of Congress and voting against Trump's position.
+
+This shows how polarization has increased in Congress, by how voting mostly occurs along party lines.
 
 does data reveal the end of moderates? shows increasing party line voting
+
+party government
 
 
 Here is some text. And I want to create a [link](http://wikipedia.url).
