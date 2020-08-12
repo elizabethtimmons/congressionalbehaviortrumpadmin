@@ -1,3 +1,4 @@
+ <link href="style.css" rel="stylesheet"></link>
 # Partisan Trends in Congressional Behavior
 ## Increased voting along party lines with or against Trump's positions
 ### By Liz Timmons
