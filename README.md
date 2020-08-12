@@ -1,6 +1,8 @@
-# Final Project for Liz Timmons
-## By Liz Timmons
-### August 8, 2020
+# Partisan Trends in Congressional Behavior
+## Increased voting along party lines with or against Trump's positions
+### By Liz Timmons
+
+
 
 Here is some text. And I want to create a [link](http://wikipedia.url).
 
