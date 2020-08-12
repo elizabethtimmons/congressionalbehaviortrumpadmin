@@ -1,5 +1,5 @@
 # Partisan Trends in Congressional Behavior
-## Increased party line voting under the Trump Administration
+## *Increased party line voting under the Trump Administration*
 ### By Liz Timmons
 
 I used a dataset from [fivethirtyeight](https://fivethirtyeight.com/)'s github repository, that includes data on how often each member of Congress votes in line with or against President Trump. I chose it because I wanted some insights of what Congress is like under the Trump Administration. The data was already cleaned and in usable form for the most part, but I had to standardize some string's values. For instance under the "party" column, some values were D and R while others were Democrat and Republican. To do this, I first imported the CSV to [OpenRefine](https://openrefine.org/). I clicked `facet`> `text facet`> `cluster` in order to standardize the text strings' values across the CSV. I then exported the CSV to [Google Sheets](https://www.google.com/sheets/about/), where I formatted the agree_pct and predicted_agree columns' values to percents by going `format`> `number`> `percent`. 
@@ -93,7 +93,7 @@ Beyond that, I selected different columns in my Google Sheets spreadsheet to cre
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfsbtfuVgUMf5Gf4QjhWe6Y8r97_rfvxZHTwDGjYfbfaY8kKuyetG2RSDcUsYM9JzVkrRmTV4wxDQv/pubchart?oid=1304994142&amp;format=interactive"></iframe>
 
 
-### Average net votes with Trump in Congress (shows polarization)
+### Average net votes with Trump in Congress 
  
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHajvZIPulaVg4CnUPxIKTRs7rUhfJ6vDNX5t-6NS9gokL3OknVIAQ1DD0kv7_Tjp3mX_M3Qh7FzlT/pubchart?oid=507834999&amp;format=interactive"></iframe>
 
@@ -105,3 +105,5 @@ This shows how polarization has increased in Congress, by how voting mostly occu
 does data reveal the end of moderates? shows increasing party line voting
 
 party government
+(shows polarization)
+different political spectrum alignment of independents in house v senate?
