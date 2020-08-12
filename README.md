@@ -57,12 +57,9 @@ I then found the sum of `net_trump_votes` by party in a pivot table.
 Finally, I did a pivot table on the sum of `net_trump_votes` by state and the average of `agree_pct` by state. I used this specific data to input in my chart and chloropleth map in [Datawrapper](https://www.datawrapper.de/). 
 
 
-### Net votes with Trump by state
-Color coated by states who voted for Trump in 2016
 <iframe title="Net Trump Votes by State" aria-label="Bar Chart" id="datawrapper-chart-z0wUQ" src="https://datawrapper.dwcdn.net/z0wUQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1240"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-### Average Trump Agreement Percent by State
 <iframe title="Average Trump Agreement Percent by State" aria-label="map" id="datawrapper-chart-RzWjd" src="https://datawrapper.dwcdn.net/RzWjd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="420"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
