@@ -105,12 +105,12 @@ Beyond that, I selected different columns in my Google Sheets spreadsheet to cre
 
 **Graph analysis:**
 
-A tendency to vote with Trump or against can be predicted by party lines. There is a positive correlation between being a Republican member of Congress and voting with Trump. On the other hand there is a postive correlation between being a Democratic member of Congress and voting against Trump's position.
+The data shows that whether you will vote in-line with Trump's position or not can be predicted be a member's political party affiliation. There is a positive correlation between being a Republican member of Congress and voting with Trump. On the other hand there is a postive correlation between being a Democratic member of Congress and voting against Trump's position. It suggests that party line voting is happening in both chambers of Congress, and that subsequently both chambers are polarized under the Trump Administration. 
 
-This shows how polarization has increased in Congress, by how voting mostly occurs along party lines.
+The data also shows how Congressional behavior is dictated by organization, as Congress has become increasingly polarized. This polarization has result in a party government organizational structure.  
 
-does data reveal the end of moderates? shows increasing party line voting
+Another interesting insight is how the Independent party members of the House are more conservatively aligned, versus the more liberal aligned Independent Senators. It shows how the Indepdent Party is not cohesively aligned on the political spectrum, unlike the Democratic and Republican Parties. Both are clearly aligned on opposite spectrums of the political spectrum, as evident by their differences in agreement with Trump votes.
 
-party government
-(shows polarization)
-different political spectrum alignment of independents in house v senate?
+The data also suggests polarization and majority party line voting by depicting the absence of bipartisanship. It depicts how Republican and Democratic members have become polarizaed by revealing the large discrepancies between each parties' agreement and voting behavior patterns. It suggests the decline of moderates, as even the most "moderate" Republicans, Sen. Collins, has a agreement percentage of `46.15%` and voted against her state with her party and Trump in the confirmation of Brett Kavanaugh.
+
+Finally it shows that Trump's views have become synonymous with that of the entire Republican parties', depicted in their overwhelming agreement and voting and patterns.
