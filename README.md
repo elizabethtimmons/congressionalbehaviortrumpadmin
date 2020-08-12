@@ -7,7 +7,9 @@ I used a dataset from [fivethirtyeight](https://fivethirtyeight.com/)'s github r
 Once my data was in workable form in Google Sheets, I created put a filter view on my spreadsheet. There, I was able to sort the data from my columns from `A to Z` and `Z to A`. I sorted the agree_pct column, predicted_agree column and net_trump_vote column. I also filtered my congress column to show either only data from the 115 Congress or 116 Congress, my chamber column to show only data for Senate or House members and my party column to show results for only one party. In doing so, I found some interesting data:
 
 **Predicted Agree Percent versus Actual Agree Percent with Trump: Congresswoman Ocasio-Cortez **
+
 -Congresswoman Ocasio-Cortez, New York, Democrat, House -- `3.85% predicted_agree` versus `13.58% agree_pct`
+
  *I found this discrepancy interesting because I expected Congresswoman Ocasio-Cortez to have one of the lowest agree percents with Trump. I bet there are some confounders for this.*
 
 **Highest Agree Percent with Trump in Congress**
@@ -30,13 +32,15 @@ Once my data was in workable form in Google Sheets, I created put a filter view 
    *Key Decision: Voted with Trump to appoint Brett Kavanaugh to Supreme Court, while voted against Trump to repeal the Affordable Care Act*
 2. Senator Murkowski, Alaska, Republican, Senate -- `58.33%`
 3. Senator Paul, Kentucky, Republican, Senate -- `62.5%`
-  *I especially found this interesting, because Sen. Collins and Sen. Murkowski have been known as key bipartisan figures and "moderates" in the past in the Senate, but those notions have been questioned in the Age of Trump. Critics have suggested that both have moved away from their past bipartisanship especially with their  dual confirmation of Kavanaugh, and despite having the lowest agree percents of Republicans, their data supports this increased polarization.
+
+  *I especially found this interesting, because Sen. Collins and Sen. Murkowski have been known as key bipartisan figures and "moderates" in the past in the Senate, but those notions have been questioned in the Age of Trump. Critics have suggested that both have moved away from their past bipartisanship especially with their  dual confirmation of Kavanaugh, and despite having the lowest agree percents of Republicans, their data supports this increased polarization.*
 
 **Highest Agree Percent with Trump of Senate Democrats**
 1. Senator Manchin, West Virginia, Democrat, Senate -- `33.33%`
 2. Senator Sinema, Arizona, Democrat, Senate -- `26.32%`
 3. Senator Jones, Alabama, Democrat, Senate -- `23.68%`
-    *I found the gap between Sen. Collins, the Republican Senator with the lowest agree percent, and Sen. Manchin, the Democratic Senator with the highest agree percent, astonunding. Their is 13% margin in party line voting.*
+
+   *I found the gap between Sen. Collins, the Republican Senator with the lowest agree percent, and Sen. Manchin, the Democratic Senator with the highest agree percent, astonunding. Their is 13% margin in party line voting.*
 
 I mostly focused on sorting with the Senate because of the fillibuster. The house does not have a fillibuster, while the Senate does which makes the dd important/ bipartisanship// recent changes. 
 
