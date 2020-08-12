@@ -52,48 +52,23 @@ This discrepancy was very interesting to me, as this data depicts the intense pa
 **After I filtered and sorted my data in various different ways, I created various pivot tables with my data**. I did this by selecting `data`>`pivot table`. I focused on finding the average percent agreement with Trump across the different chambers, congresses and parties.
 ![Screenshot of my pivot table on the average agree_pct value](https://media.journalism.berkeley.edu/upload/2020/08/1597199493c212305.png)
 
-I then found the sum of `net_trump_votes` by party.
-![Screenshot of my pivot table on the sum of net_trump_votes](https://media.journalism.berkeley.edu/upload/2020/08/159719956646ae615.png)
+I then found the sum of `net_trump_votes` by party in a pivot table.
 
 Finally, I did a pivot table on the sum of `net_trump_votes` by state and the average of `agree_pct` by state. I used this specific data to input in my chart and chloropleth map in [Datawrapper](https://www.datawrapper.de/). 
 
 
-graph analysis:
-A tendency to vote with Trump or against can be predicted by party lines. There is a positive correlation between being a Republican member of Congress and voting with Trump. On the other hand there is a postive correlation between being a Democratic member of Congress and voting against Trump's position.
+### Net votes with Trump by state
+Color coated by states who voted for Trump in 2016
+<iframe title="Net Trump Votes by State" aria-label="Bar Chart" id="datawrapper-chart-z0wUQ" src="https://datawrapper.dwcdn.net/z0wUQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1240"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
 
-This shows how polarization has increased in Congress, by how voting mostly occurs along party lines.
+### Average Trump Agreement Percent by State
+<iframe title="Average Trump Agreement Percent by State" aria-label="map" id="datawrapper-chart-RzWjd" src="https://datawrapper.dwcdn.net/RzWjd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="420"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
 
-does data reveal the end of moderates? shows increasing party line voting
+I found both of these to be interesting, as it depicts the correlation between a state's average agree percent with Trump and their net votes with Trump, and if the state voted for Trump in 2016.
 
-party government
-
-
-Here is some text. And I want to create a [link](http://wikipedia.url).
-
-1. Here is a list
-2. Another item
-3. Third item
-
-* Here is a bulleted list
-* Another item
-* Third item
-
-![picture of cat](http://placekitten.com/400/300)
-
-Here is some text.
-
-More text.
-
-Girls who `code`.
-
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHajvZIPulaVg4CnUPxIKTRs7rUhfJ6vDNX5t-6NS9gokL3OknVIAQ1DD0kv7_Tjp3mX_M3Qh7FzlT/pubchart?oid=1289788854&amp;format=interactive"></iframe>
-
-The formula I used was:
-
-
-```
-=VLOOKUP("Something", A2:157, 1, false)
-```
+Beyond that, I selected different columns in my Google Sheets spreadsheet to create different charts. I sorted by chamber to show the average agree_pct of Congress in general, just the Senate and just the House. I also sorted to compare the average `agree_pct` of these with their average `predicted_agree` percent value.
 
 ### Average agreement percent with Trump
 
@@ -121,12 +96,15 @@ The formula I used was:
 <iframe title="Average Trump Agreement Percent by State" aria-label="map" id="datawrapper-chart-RzWjd" src="https://datawrapper.dwcdn.net/RzWjd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="420"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-
 ### Average net votes with Trump in Congress (shows polarization)
  
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHajvZIPulaVg4CnUPxIKTRs7rUhfJ6vDNX5t-6NS9gokL3OknVIAQ1DD0kv7_Tjp3mX_M3Qh7FzlT/pubchart?oid=507834999&amp;format=interactive"></iframe>
 
-### Net votes with Trump by state
-Color coated by states who voted for Trump in 2016
-<iframe title="Net Trump Votes by State" aria-label="Bar Chart" id="datawrapper-chart-z0wUQ" src="https://datawrapper.dwcdn.net/z0wUQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1240"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
+**Graph analysis:**
+A tendency to vote with Trump or against can be predicted by party lines. There is a positive correlation between being a Republican member of Congress and voting with Trump. On the other hand there is a postive correlation between being a Democratic member of Congress and voting against Trump's position.
+
+This shows how polarization has increased in Congress, by how voting mostly occurs along party lines.
+
+does data reveal the end of moderates? shows increasing party line voting
+
+party government
