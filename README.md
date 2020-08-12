@@ -6,9 +6,8 @@ I used a dataset from [fivethirtyeight](https://fivethirtyeight.com/)'s github r
 
 Once my data was in workable form in Google Sheets, I created put a filter view on my spreadsheet. There, I was able to sort the data from my columns from `A to Z` and `Z to A`. I sorted the agree_pct column, predicted_agree column and net_trump_vote column. I also filtered my congress column to show either only data from the 115 Congress or 116 Congress, my chamber column to show only data for Senate or House members and my party column to show results for only one party. In doing so, I found some interesting data:
 
-**Predicted Agree Percent versus Actual Agree Percent with Trump: Congresswoman Ocasio-Cortez **
-
--Congresswoman Ocasio-Cortez, New York, Democrat, House -- `3.85% predicted_agree` versus `13.58% agree_pct`
+**Predicted Agree Percent versus Actual Agree Percent with Trump: Congresswoman Ocasio-Cortez**
+1. Congresswoman Ocasio-Cortez, New York, Democrat, House -- `3.85% predicted_agree` versus `13.58% agree_pct`
 
  *I found this discrepancy interesting because I expected Congresswoman Ocasio-Cortez to have one of the lowest agree percents with Trump. I bet there are some confounders for this.*
 
